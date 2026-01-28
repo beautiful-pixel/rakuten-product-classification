@@ -1,0 +1,6 @@
+inference:
+  use_api: false
+  api_url: "http://127.0.0.1:8000/predict_with_contributions"
+
+model:
+  repo_id: "beautiful-pixel/rakuten-product-classification"

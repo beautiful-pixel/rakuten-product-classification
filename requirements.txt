@@ -1,0 +1,40 @@
+# =========================
+# API
+# =========================
+fastapi
+uvicorn
+python-multipart
+
+# =========================
+# ML / Inference
+# =========================
+torch>=2.0
+torchvision
+transformers
+tokenizers
+timm
+huggingface_hub
+safetensors
+
+# =========================
+# Data / Utils
+# =========================
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+pillow
+pyyaml
+requests
+tqdm
+filelock
+networkx
+
+# =========================
+# Demo
+# =========================
+streamlit
+altair
+pydeck
+watchdog

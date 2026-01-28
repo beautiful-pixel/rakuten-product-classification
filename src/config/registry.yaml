@@ -1,0 +1,20 @@
+text:
+  camembert:
+    path: "models/camembert_large"
+
+  xlmr:
+    path: "models/xlmr_base"
+
+  tfidf:
+    path: "models/vectorizer_svm/vectorizer_svm.joblib"
+
+image:
+  convnext:
+    path: "models/convnext_base"
+
+  swin:
+    path: "models/swin_base"
+
+fusion:
+  params_path: "models/fusion/fusion_params.json"
+  meta_model_path: "models/fusion/meta_model.joblib"
