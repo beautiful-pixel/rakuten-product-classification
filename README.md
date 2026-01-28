@@ -1,8 +1,7 @@
 # Rakuten Product Classification – Multimodal
 
 This repository contains a **multimodal product classification system**
-developed as part of a data science / MLOps training project, based on the  
-[Rakuten France Multimodal Product Classification challenge](https://challengedata.ens.fr/challenges/35).
+developed as part of a data science / MLOps training project, based on the [Rakuten France Multimodal Product Classification challenge](https://challengedata.ens.fr/challenges/35).
 
 The objective is to predict the **Rakuten product category (27 categories)** by jointly leveraging
 textual information and product images through a late-fusion, stacking-based architecture.
@@ -108,7 +107,6 @@ confidence scores and modality-level contributions.
 - The Streamlit demo is deployed on **Hugging Face Spaces**.
 
 Live demo:
-
 https://beautiful-pixel-rakuten-product-classification-demo.hf.space
 
 ---
@@ -127,7 +125,6 @@ early modeling iterations, **as well as a written report produced as part of the
 are available in a separate repository:
 
 Exploration repository:
-
 https://github.com/beautiful-pixel/DS_rakuten
 
 This separation keeps the present repository focused on the **final architecture,
