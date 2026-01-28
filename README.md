@@ -107,8 +107,9 @@ confidence scores and modality-level contributions.
 - Model artifacts are retrieved from the Hugging Face Hub at runtime.
 - The Streamlit demo is deployed on **Hugging Face Spaces**.
 
-Live demo:  
-https://beautiful-pixel-rakuten-product-classification-demo.hf.space/
+Live demo:
+
+https://beautiful-pixel-rakuten-product-classification-demo.hf.space
 
 ---
 
@@ -126,6 +127,7 @@ early modeling iterations, **as well as a written report produced as part of the
 are available in a separate repository:
 
 Exploration repository:
+
 https://github.com/beautiful-pixel/DS_rakuten
 
 This separation keeps the present repository focused on the **final architecture,
