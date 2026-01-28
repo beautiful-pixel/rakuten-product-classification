@@ -108,9 +108,7 @@ confidence scores and modality-level contributions.
 - The Streamlit demo is deployed on **Hugging Face Spaces**.
 
 Live demo:  
-<a href="https://beautiful-pixel-rakuten-product-classification-demo.hf.space/" target="_blank" rel="noopener noreferrer">
 https://beautiful-pixel-rakuten-product-classification-demo.hf.space/
-</a>
 
 ---
 
@@ -128,9 +126,7 @@ early modeling iterations, **as well as a written report produced as part of the
 are available in a separate repository:
 
 Exploration repository:
-<a href="https://github.com/beautiful-pixel/DS_rakuten" target="_blank" rel="noopener noreferrer">
 https://github.com/beautiful-pixel/DS_rakuten
-</a>
 
 This separation keeps the present repository focused on the **final architecture,
 inference pipeline, and deployment-ready implementation**.
