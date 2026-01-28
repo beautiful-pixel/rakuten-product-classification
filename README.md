@@ -28,7 +28,7 @@ confidence scores and modality-level contributions.
 
 - CamemBERT (French transformer)
 - XLM-R (multilingual transformer)
-- TF-IDF + linear SVM (probability calibrated)
+- TF-IDF + linear SVM
 
 ### Image Modality
 
