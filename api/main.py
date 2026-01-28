@@ -1,12 +1,15 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
 from fastapi import FastAPI, UploadFile, File, Form
 from contextlib import asynccontextmanager
 import pandas as pd
 import numpy as np
 import yaml
-import sys
 from PIL import Image
 import io
-sys.path.insert(0, '../src')
 from inference.load_model import load_model
 
 def load_config():

@@ -54,7 +54,9 @@ confidence scores and modality-level contributions.
 │
 ├── api/
 │   ├── main.py                 # FastAPI inference service
-│   └── config.yaml
+│   ├── config.yaml             # API configuration
+│   ├── openapi.json            # OpenAPI specification
+│   └── doc.html                # Static documentation
 │
 ├── artifacts/
 │   └── canonical_classes.json  # Canonical label definition
@@ -99,41 +101,6 @@ confidence scores and modality-level contributions.
 └── README.md
 ```
 
-## Running the Streamlit Demo
-
-The Streamlit application runs in local inference mode by default.
-
-## Running the Streamlit Demo
-
-The Streamlit application runs in local inference mode by default.
-
-**With Docker**
-
-```bash
-docker build -t rakuten-streamlit .
-docker run -p 8501:8501 rakuten-streamlit
-```
-
-**Without Docker**
-
-```bash
-pip install -r requirements.txt
-streamlit run app/app.py
-```
-
-Open: http://localhost:8501
-
----
-
-## Optional: API-Based Inference
-
-The project also supports an optional API-based inference mode (FastAPI),
-intended for production deployments.
-
-This mode is disabled by default and is not required to run the Streamlit demo.
-
----
-
 ## Reproducibility & Deployment
 
 - Docker is used to ensure full environment reproducibility.
@@ -141,7 +108,16 @@ This mode is disabled by default and is not required to run the Streamlit demo.
 - The Streamlit demo is deployed on **Hugging Face Spaces**.
 
 Live demo:  
+<a href="https://beautiful-pixel-rakuten-product-classification-demo.hf.space/" target="_blank" rel="noopener noreferrer">
 https://beautiful-pixel-rakuten-product-classification-demo.hf.space/
+</a>
+
+---
+
+## Optional: API-Based Inference
+
+The project also supports an optional API-based inference mode (FastAPI),
+intended for production deployments. The API is not deployed.
 
 ---
 
@@ -152,7 +128,9 @@ early modeling iterations, **as well as a written report produced as part of the
 are available in a separate repository:
 
 Exploration repository:
+<a href="https://github.com/beautiful-pixel/DS_rakuten" target="_blank" rel="noopener noreferrer">
 https://github.com/beautiful-pixel/DS_rakuten
+</a>
 
 This separation keeps the present repository focused on the **final architecture,
 inference pipeline, and deployment-ready implementation**.
