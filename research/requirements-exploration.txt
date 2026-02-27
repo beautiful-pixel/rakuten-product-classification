@@ -1,0 +1,49 @@
+# Exploration-only dependencies (notebooks + research/exploratory)
+# Install: pip install -r requirements-exploration.txt
+
+# Core data / ML
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+tqdm
+
+# Plotting (used in notebooks)
+matplotlib
+seaborn
+
+# Notebooks runtime
+ipykernel
+
+# NLP exploration (used in notebooks and cleaning)
+nltk
+wordcloud
+
+# Image exploration (used in notebooks and exploratory features)
+pillow
+opencv-python
+scikit-image
+
+# Experiment tracking (imported in research/exploratory)
+wandb
+
+# Transformers / DL (used in research/exploratory models/experiments/train)
+torch>=2.0
+torchvision
+transformers
+tokenizers
+timm
+huggingface_hub
+safetensors
+
+datasets
+
+# TensorBoard (required by torch.utils.tensorboard.SummaryWriter)
+tensorboard
+
+# Misc utils (may be required transitively by HF / Torch)
+pyyaml
+requests
+filelock
+networkx
