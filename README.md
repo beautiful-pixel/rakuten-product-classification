@@ -25,11 +25,9 @@ The system outputs:
 - calibrated confidence scores
 - modality-level contributions
 
-The final multimodal model achieved a **weighted F1-score of 0.9273**  
-on the official Rakuten test set.
+The final multimodal model achieved a **weighted F1-score of 0.9273** on the official Rakuten test set.
 
-Although the challenge took place in 2020, the model was submitted retrospectively  
-and exceeded the best historical public score (0.9196).
+Although the challenge took place in 2020, the model was submitted retrospectively and exceeded the best historical public score (0.9196).
 
 ---
 
@@ -58,18 +56,10 @@ and exceeded the best historical public score (0.9196).
 ```text
 .
 ├── app/                      # Streamlit demo
-│   ├── app.py
-│   ├── config.yaml
-│   └── demo_images/
 │
 ├── api/                      # FastAPI inference service
-│   ├── main.py
-│   ├── config.yaml
-│   ├── openapi.json
-│   └── doc.html
 │
 ├── artifacts/                # Static artifacts (canonical classes)
-│   └── canonical_classes.json
 │
 ├── src/                      # Production-ready inference pipeline
 │   ├── config/               # Logical model registry
